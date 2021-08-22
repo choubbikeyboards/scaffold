@@ -50,6 +50,9 @@ You will need as many of these as keys you want (for a full keys keyboard, that'
 Optional, for as many joysticks as you want:
 * Joycon/Switch joysticks
 * 5-pin 0.5mm pitch FPC/FFC connector
+* something to attach the joystick to the board:
+    * double-sided tape for thumb sticks
+    * 2 screws, M1.6x5mm, and 2 M1.6 nuts per index stick. Double-sided tape work well too.
 
 Optional, for each OLED screen you want:
 * 4-pin 0.96 inch 128x64 OLED screen, SSD 1306 driver
