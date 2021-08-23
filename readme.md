@@ -1,5 +1,6 @@
 Scaffold keyboard
 =================
+![Scaffold picture](https://github.com/choubbikeyboards/scaffold/blob/main/front.jpg)
 
 This keyboard is inspired by many others, among which the Ferris, the Kyria, the Dactyl Manuform, and others.
 The major contribution of this project is the method of using PCB for simultaneous structural support and electrical wiring of individual keys.
