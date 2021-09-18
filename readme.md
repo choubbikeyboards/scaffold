@@ -65,36 +65,52 @@ This is a quick overview of how to assemble a Scaffold keyboard. It shows only t
 
 * 1st step is to separate the pieces you'll need: each angled key needs 2 angled supports and an individual key holder.
 * Then, start putting solder on one of the pads of each SMD diode, for the flat keys only (so 5 keys + thumbs here for a 3x5 configuration, 7 keys + thumbs for a 4x4-1 configuration)
+
 ![step1](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/1-pre_solder_SMD.jpg)
 * Once the solder is on one pad of a diode, place the diode on its footprint (white bar of the diode where the point of the triangle meets the other bar), solder one leg to the pre-soldered pad, and once the solder has cooled down, solder the other leg. Pre-soldering the pad makes it easier to solder the first leg without having to hold the soldering wire too. Keeping the other pad clean lets the diode leg rest against the PCB.
+
 ![step2](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/2-solder_SMD.jpg)
 * Don't hesitate to turn the PCB around to access the pads more comfortably! 
+
 ![step3](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/3-turn_PCB_solder_SMD.jpg)
 * Now the SMD headers for the joysticks, if you plan on mounting one. This part is quite hard for me, so you will probably be best served by generic SMD soldering guides on your video website of choice. Anyway, I start by pre-soldering the pads. Be sure to check if there aren't any shorts at this stage, and don't use too much solder, or it will spread to the other pins when pushing the pin onto the solder in the later steps.
+
 ![step4](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/4-pre_solder_SMD_header.jpg)
 * Place the header on its footprint. That step requires accuracy to make the next step easier. Make sure the pins are properly aligned. Use a magnifying glass if needed (I can't do it without one myself).
+
 ![step5](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/5-place_SMD_header_accurately.jpg)
 * Solder the sides of the header first, and adjust the position of the header if it moved. Then solder the pins by pressing on them with the hot iron for a couple seconds and release. The solder placed earlier will normally stick to the pin and the pad, connecting them.
+
 ![step6](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/6-solder_SMD_header_sides.jpg)
 * Check for shorts, fix until no short remains... Have I mentioned I found this part hard?
+
 ![step7](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/7-desolder_shorts_SMD_header.jpg)
 * For each of the angled keys you need, solder the diode, like has been done on the main PCB for the flat keys. Again, trust the silkscreen to see which way to solder the diode.
+
 ![step8](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/8-solder_SMD_diodes_small_boards.jpg)
 * now, for each angled key, you have to build the support. Start with placing 2 angled supports in the slots of a key that is near the edge of the PCB. I prefer to build the supports where the supports are shown in the picture:
+
 ![step9](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/9-place_angled_supports.jpg)
 * Then, place the individual support on top, with the diode on top, but near the edge closest to the main PCB (towards the center of the main PCB on that picture). Then solder the inside connections on the highest point. This makes the angled support hold its own for soldering the other inner solder joints after removing the support from the main PCB.
+
 ![step10](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/10-solder_angled_supports_to_small_board.jpg)
 * Take the angled support off the main PCB, solder the remaining inner joints. Try to keep the switch pin hole free for the next step.
+
 ![step11](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/11-solder_angled_supports_to_small_board_2.jpg)
 * In the meantime, you can solder the hotswap sockets for the flat keys.
+
 ![step12](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/12-solder_hotswap_sockets.jpg)
 * Back to the angled holders: push the switch all the way in (requires a bit of force, but be careful not to bend a pin), and solder the pins to the small board.
+
 ![step13](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/13-solder_switch_to_small_board.jpg)
 * Now you have to solder the angled supports to the main PCB. The order of soldering can make things a bit simpler, but there will always remain a few tricky spots to solder.
+
 ![step14](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/14-solder_angled_keys_1.jpg)
 * Make sure to avoid soldering 2 adjacent switches together!
+
 ![step15](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/15-solder_angled_keys_2.jpg)
 * Having the flat key switches off the board makes things easier.
+
 ![step16](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/16-solder_angled_keys_3.jpg)
 * You now can place the switches in the hotswap sockets, solder the rest of the elements if it's not done already, and plug the joysticks in if needed. I used dual sided tape on angled supports for the thumb joysticks, just don't put a diode on those supports. Flat index joysticks can be taped to the main PCB the same way, or bolted in place with M1.6x5mm bolts.
 
