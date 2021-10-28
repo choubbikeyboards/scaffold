@@ -1,0 +1,1438 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3400 2300 3250 2300
+Wire Wire Line
+	3250 1550 3400 1550
+Wire Wire Line
+	3400 800  3250 800 
+Wire Wire Line
+	2800 800  2650 800 
+Wire Wire Line
+	2200 800  2050 800 
+Wire Wire Line
+	1450 800  1600 800 
+Wire Wire Line
+	950  800  800  800 
+Wire Wire Line
+	800  1550 950  1550
+Wire Wire Line
+	1450 1550 1600 1550
+Wire Wire Line
+	2050 1550 2200 1550
+Wire Wire Line
+	2650 1550 2800 1550
+Wire Wire Line
+	2800 2300 2650 2300
+Wire Wire Line
+	2200 2300 2050 2300
+Wire Wire Line
+	1600 2300 1450 2300
+Wire Wire Line
+	950  2300 800  2300
+Text Label 1250 600  0    50   ~ 0
+COL_P
+Text Label 1900 600  0    50   ~ 0
+COL_R
+Text Label 2500 600  0    50   ~ 0
+COL_M
+Text Label 3100 600  0    50   ~ 0
+COL_I1
+Text Label 3700 600  0    50   ~ 0
+COL_I2
+$Comp
+L Connector:AudioJack4 J_TRRS_1
+U 1 1 60C1BF27
+P 2450 5900
+F 0 "J_TRRS_1" H 2120 5875 50  0000 R CNN
+F 1 "AudioJack4" H 2120 5784 50  0000 R CNN
+F 2 "scaffold:TRRS-PJ-320A" H 2450 5900 50  0001 C CNN
+F 3 "~" H 2450 5900 50  0001 C CNN
+	1    2450 5900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4150 3800 4150
+Wire Wire Line
+	2800 3950 3450 3850
+Wire Wire Line
+	1400 4050 850  4050
+Wire Wire Line
+	1400 4150 1400 4050
+Wire Wire Line
+	1400 4350 1000 4350
+Wire Wire Line
+	1000 4250 1400 4250
+Text Label 1000 4350 0    50   ~ 0
+SCL
+Text Label 1000 4250 0    50   ~ 0
+SDA
+Wire Wire Line
+	1400 3950 1000 3950
+$Comp
+L power:GND #PWR0101
+U 1 1 60C251CD
+P 850 4050
+F 0 "#PWR0101" H 850 3800 50  0001 C CNN
+F 1 "GND" H 855 3877 50  0000 C CNN
+F 2 "" H 850 4050 50  0001 C CNN
+F 3 "" H 850 4050 50  0001 C CNN
+	1    850  4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60C25669
+P 3600 3850
+F 0 "#PWR0102" H 3600 3600 50  0001 C CNN
+F 1 "GND" H 3605 3677 50  0000 C CNN
+F 2 "" H 3600 3850 50  0001 C CNN
+F 3 "" H 3600 3850 50  0001 C CNN
+	1    3600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 60C277A9
+P 3850 4150
+F 0 "#PWR0103" H 3850 4000 50  0001 C CNN
+F 1 "VCC" H 3867 4323 50  0000 C CNN
+F 2 "" H 3850 4150 50  0001 C CNN
+F 3 "" H 3850 4150 50  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4050 2900 4050
+Text Label 2900 4050 0    50   ~ 0
+RST
+Text Label 1000 3950 0    50   ~ 0
+SERIAL
+NoConn ~ 2800 3850
+Wire Wire Line
+	2800 4450 3350 4450
+Wire Wire Line
+	3350 4550 2800 4550
+Wire Wire Line
+	2800 4650 3350 4650
+Wire Wire Line
+	3350 4750 2800 4750
+Wire Wire Line
+	2800 4850 3350 4850
+Wire Wire Line
+	3350 4950 2800 4950
+Wire Wire Line
+	1400 4850 1000 4850
+Wire Wire Line
+	1000 4750 1400 4750
+Wire Wire Line
+	1400 3850 1000 3850
+Wire Wire Line
+	1400 4550 1000 4550
+Wire Wire Line
+	900  4450 1400 4450
+NoConn ~ 2250 5900
+Text Label 1000 4850 0    50   ~ 0
+ROW_B
+Text Label 1000 4750 0    50   ~ 0
+ROW_M
+Text Label 1000 3850 0    50   ~ 0
+ROW_T
+Text Label 1000 4550 0    50   ~ 0
+COL_P
+Text Label 3350 4650 0    50   ~ 0
+COL_R
+Text Label 3350 4750 0    50   ~ 0
+COL_M
+Text Label 3350 4850 0    50   ~ 0
+COL_I1
+Text Label 3350 4950 0    50   ~ 0
+COL_I2
+Text Label 3350 4450 0    50   ~ 0
+JOYCON_UD1
+Text Label 3350 4550 0    50   ~ 0
+JOYCON_LR1
+Text Label 900  4450 0    50   ~ 0
+JOYCON_Push
+Wire Wire Line
+	4000 2300 3850 2300
+Wire Wire Line
+	3850 1550 4000 1550
+Wire Wire Line
+	4000 800  3850 800 
+Text Label 4300 600  0    50   ~ 0
+COL_T
+Text Label 4500 1100 0    50   ~ 0
+ROW_T
+Text Label 4500 1850 0    50   ~ 0
+ROW_M
+Text Label 4500 2600 0    50   ~ 0
+ROW_B
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60C42D13
+P 3450 3850
+F 0 "#FLG0101" H 3450 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 4023 50  0000 C CNN
+F 2 "" H 3450 3850 50  0001 C CNN
+F 3 "~" H 3450 3850 50  0001 C CNN
+	1    3450 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 3850
+Wire Wire Line
+	3450 3850 3600 3850
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60C43197
+P 3800 4150
+F 0 "#FLG0102" H 3800 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 4323 50  0000 C CNN
+F 2 "" H 3800 4150 50  0001 C CNN
+F 3 "~" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	1    0    0    1   
+$EndComp
+Connection ~ 3800 4150
+Wire Wire Line
+	3800 4150 3850 4150
+$Comp
+L power:VCC #PWR0106
+U 1 1 60C48767
+P 2100 5750
+F 0 "#PWR0106" H 2100 5600 50  0001 C CNN
+F 1 "VCC" H 2117 5923 50  0000 C CNN
+F 2 "" H 2100 5750 50  0001 C CNN
+F 3 "" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5800 2100 5800
+Wire Wire Line
+	2100 5800 2100 5750
+Wire Wire Line
+	2250 6000 1950 6000
+Wire Wire Line
+	2250 6100 2100 6100
+Wire Wire Line
+	2100 6100 2100 6150
+$Comp
+L power:GND #PWR0107
+U 1 1 60C4FFCA
+P 2100 6150
+F 0 "#PWR0107" H 2100 5900 50  0001 C CNN
+F 1 "GND" H 2105 5977 50  0000 C CNN
+F 2 "" H 2100 6150 50  0001 C CNN
+F 3 "" H 2100 6150 50  0001 C CNN
+	1    2100 6150
+	1    0    0    -1  
+$EndComp
+Text Label 1950 6000 0    50   ~ 0
+SERIAL
+Connection ~ 1400 4050
+$Comp
+L scaffold:Joycon Joycon_thumb1
+U 1 1 60C6058A
+P 3350 6900
+F 0 "Joycon_thumb1" H 3580 6942 50  0000 L CNN
+F 1 "Joycon" H 3580 6851 50  0000 L CNN
+F 2 "scaffold:FPC_1x05-P0.5mm_Aliexpress" H 3500 6900 50  0001 C CNN
+F 3 "" H 3500 6900 50  0001 C CNN
+	1    3350 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6700 3000 6700
+Wire Wire Line
+	3000 6700 3000 6650
+Wire Wire Line
+	3100 6800 2450 6800
+Wire Wire Line
+	3100 6900 2450 6900
+Wire Wire Line
+	3100 7000 3000 7000
+Wire Wire Line
+	3000 7000 3000 7150
+Wire Wire Line
+	3100 7100 2450 7100
+$Comp
+L power:GND #PWR0108
+U 1 1 60C6D96A
+P 3000 7150
+F 0 "#PWR0108" H 3000 6900 50  0001 C CNN
+F 1 "GND" H 3005 6977 50  0000 C CNN
+F 2 "" H 3000 7150 50  0001 C CNN
+F 3 "" H 3000 7150 50  0001 C CNN
+	1    3000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 60C6DCF7
+P 3000 6650
+F 0 "#PWR0109" H 3000 6500 50  0001 C CNN
+F 1 "VCC" H 3017 6823 50  0000 C CNN
+F 2 "" H 3000 6650 50  0001 C CNN
+F 3 "" H 3000 6650 50  0001 C CNN
+	1    3000 6650
+	1    0    0    -1  
+$EndComp
+Text Label 2450 7100 0    50   ~ 0
+JOYCON_LR1
+Text Label 2450 6800 0    50   ~ 0
+JOYCON_UD1
+Text Label 2450 6900 0    50   ~ 0
+JOYCON_Push
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60CA749D
+P 1250 6000
+F 0 "SW1" H 1250 6285 50  0000 C CNN
+F 1 "SW_Push" H 1250 6194 50  0000 C CNN
+F 2 "scaffold:SW_PUSH_6mm_H4.3mm_no_SilkS" H 1250 6200 50  0001 C CNN
+F 3 "~" H 1250 6200 50  0001 C CNN
+	1    1250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 60CA7992
+P 900 6050
+F 0 "#PWR0116" H 900 5800 50  0001 C CNN
+F 1 "GND" H 905 5877 50  0000 C CNN
+F 2 "" H 900 6050 50  0001 C CNN
+F 3 "" H 900 6050 50  0001 C CNN
+	1    900  6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6000 900  6000
+Wire Wire Line
+	900  6000 900  6050
+Wire Wire Line
+	1450 6000 1600 6000
+Text Label 1600 6000 0    50   ~ 0
+RST
+$Comp
+L scaffold:Joycon Joycon_index1
+U 1 1 60CBDD62
+P 1500 6850
+F 0 "Joycon_index1" H 1730 6892 50  0000 L CNN
+F 1 "Joycon" H 1730 6801 50  0000 L CNN
+F 2 "scaffold:joycon_flat_flex_cable_passing_through_pcb" H 1650 6850 50  0001 C CNN
+F 3 "" H 1650 6850 50  0001 C CNN
+	1    1500 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6650 1150 6650
+Wire Wire Line
+	1150 6650 1150 6600
+Wire Wire Line
+	1250 6750 600  6750
+Wire Wire Line
+	1250 6850 600  6850
+Wire Wire Line
+	1250 6950 1150 6950
+Wire Wire Line
+	1150 6950 1150 7100
+Wire Wire Line
+	1250 7050 600  7050
+$Comp
+L power:GND #PWR0121
+U 1 1 60CBDD73
+P 1150 7100
+F 0 "#PWR0121" H 1150 6850 50  0001 C CNN
+F 1 "GND" H 1155 6927 50  0000 C CNN
+F 2 "" H 1150 7100 50  0001 C CNN
+F 3 "" H 1150 7100 50  0001 C CNN
+	1    1150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0122
+U 1 1 60CBDD7D
+P 1150 6600
+F 0 "#PWR0122" H 1150 6450 50  0001 C CNN
+F 1 "VCC" H 1167 6773 50  0000 C CNN
+F 2 "" H 1150 6600 50  0001 C CNN
+F 3 "" H 1150 6600 50  0001 C CNN
+	1    1150 6600
+	1    0    0    -1  
+$EndComp
+Text Label 600  7050 0    50   ~ 0
+JOYCON_LR2
+Text Label 600  6750 0    50   ~ 0
+JOYCON_UD2
+Text Label 600  6850 0    50   ~ 0
+JOYCON_Push
+Wire Wire Line
+	3700 600  3700 800 
+Wire Wire Line
+	3100 600  3100 800 
+Wire Wire Line
+	2500 600  2500 800 
+Wire Wire Line
+	800  2600 1450 2600
+Wire Wire Line
+	800  1850 1450 1850
+Wire Wire Line
+	1900 600  1900 800 
+Wire Wire Line
+	800  1100 1450 1100
+Wire Wire Line
+	1250 600  1250 800 
+Text Label 4450 3350 0    50   ~ 0
+ROW_ADD
+$Comp
+L scaffold:Col3 Col1
+U 1 1 60CB218B
+P 1050 1700
+F 0 "Col1" H 1294 1774 50  0000 L CNN
+F 1 "Col3" H 1294 1683 50  0000 L CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 800 1695 50  0001 C CNN
+F 3 "" V 800 1695 50  0001 C CNN
+	1    1050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 800  1250 1550
+Connection ~ 1250 800 
+Connection ~ 1250 1550
+Wire Wire Line
+	1250 1550 1250 2300
+$Comp
+L scaffold:Col4 Col2
+U 1 1 60CB7AF3
+P 1700 1700
+F 0 "Col2" H 1944 1774 50  0000 L CNN
+F 1 "Col4" H 1944 1683 50  0000 L CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 1450 1695 50  0001 C CNN
+F 3 "" V 1450 1695 50  0001 C CNN
+	1    1700 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 2600
+Wire Wire Line
+	1450 2600 2050 2600
+Connection ~ 1450 1850
+Wire Wire Line
+	1450 1850 2050 1850
+Connection ~ 1450 1100
+Wire Wire Line
+	1450 1100 2050 1100
+$Comp
+L scaffold:Col4 Col3
+U 1 1 60CB84E5
+P 2300 1700
+F 0 "Col3" H 2544 1774 50  0000 L CNN
+F 1 "Col4" H 2544 1683 50  0000 L CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 2050 1695 50  0001 C CNN
+F 3 "" V 2050 1695 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 2600
+Wire Wire Line
+	2050 2600 2650 2600
+Connection ~ 2050 1850
+Wire Wire Line
+	2050 1850 2650 1850
+Connection ~ 2050 1100
+Wire Wire Line
+	2050 1100 2650 1100
+$Comp
+L scaffold:Col4 Col4
+U 1 1 60CB8DCA
+P 2900 1700
+F 0 "Col4" H 3144 1774 50  0000 L CNN
+F 1 "Col4" H 3144 1683 50  0000 L CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 2650 1695 50  0001 C CNN
+F 3 "" V 2650 1695 50  0001 C CNN
+	1    2900 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 2600
+Wire Wire Line
+	2650 2600 3250 2600
+Connection ~ 2650 1850
+Wire Wire Line
+	2650 1850 3250 1850
+Connection ~ 2650 1100
+Wire Wire Line
+	2650 1100 3250 1100
+$Comp
+L scaffold:Col3 Col5
+U 1 1 60CB9377
+P 3500 1700
+F 0 "Col5" H 3744 1774 50  0000 L CNN
+F 1 "Col3" H 3744 1683 50  0000 L CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 3250 1695 50  0001 C CNN
+F 3 "" V 3250 1695 50  0001 C CNN
+	1    3500 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 2600
+Connection ~ 3250 1850
+Connection ~ 3250 1100
+Wire Wire Line
+	1450 3350 2050 3350
+Connection ~ 2050 3350
+Wire Wire Line
+	2050 3350 2650 3350
+Connection ~ 2650 3350
+Wire Wire Line
+	2650 3350 4450 3350
+Wire Wire Line
+	3700 2300 3700 1550
+Connection ~ 3700 800 
+Connection ~ 3700 1550
+Wire Wire Line
+	3700 1550 3700 800 
+Wire Wire Line
+	3100 800  3100 1550
+Connection ~ 3100 800 
+Connection ~ 3100 1550
+Wire Wire Line
+	3100 1550 3100 2300
+Connection ~ 3100 2300
+Wire Wire Line
+	3100 2300 3100 3050
+Wire Wire Line
+	2800 3050 2650 3050
+Wire Wire Line
+	2500 3050 2500 2300
+Connection ~ 2500 800 
+Connection ~ 2500 1550
+Wire Wire Line
+	2500 1550 2500 800 
+Connection ~ 2500 2300
+Wire Wire Line
+	2500 2300 2500 1550
+Wire Wire Line
+	1900 800  1900 1550
+Connection ~ 1900 800 
+Connection ~ 1900 1550
+Wire Wire Line
+	1900 1550 1900 2300
+Connection ~ 1900 2300
+Wire Wire Line
+	1900 2300 1900 3050
+Wire Wire Line
+	2050 3050 2200 3050
+Wire Wire Line
+	1600 3050 1450 3050
+Wire Wire Line
+	3250 1100 3850 1100
+Wire Wire Line
+	4300 600  4300 800 
+Wire Wire Line
+	3250 1850 3850 1850
+Wire Wire Line
+	3250 2600 3850 2600
+$Comp
+L scaffold:SW_and_D SW_and_D1
+U 1 1 60CAE2F3
+P 4100 950
+F 0 "SW_and_D1" H 4344 1024 50  0000 L CNN
+F 1 "SW_and_D" H 4344 933 50  0000 L CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 3850 945 50  0001 C CNN
+F 3 "" V 3850 945 50  0001 C CNN
+	1    4100 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 800 
+Wire Wire Line
+	4300 800  4300 1550
+Connection ~ 3850 1100
+Wire Wire Line
+	3850 1100 4500 1100
+$Comp
+L scaffold:SW_and_D SW_and_D2
+U 1 1 60CAE946
+P 4100 1700
+F 0 "SW_and_D2" H 4344 1774 50  0000 L CNN
+F 1 "SW_and_D" H 4344 1683 50  0000 L CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 3850 1695 50  0001 C CNN
+F 3 "" V 3850 1695 50  0001 C CNN
+	1    4100 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 1550
+Wire Wire Line
+	4300 1550 4300 2300
+Connection ~ 3850 1850
+Wire Wire Line
+	3850 1850 4500 1850
+$Comp
+L scaffold:SW_and_D SW_and_D3
+U 1 1 60CAEE2D
+P 4100 2450
+F 0 "SW_and_D3" H 4344 2524 50  0000 L CNN
+F 1 "SW_and_D" H 4344 2433 50  0000 L CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 3850 2445 50  0001 C CNN
+F 3 "" V 3850 2445 50  0001 C CNN
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 2600
+Wire Wire Line
+	3850 2600 4500 2600
+$Comp
+L scaffold:OLED OLED1
+U 1 1 60C02394
+P 4150 6050
+F 0 "OLED1" H 4230 6042 50  0000 L CNN
+F 1 "OLED" H 4230 5951 50  0000 L CNN
+F 2 "scaffold:OLED_PinHeader_1x04_P2.54mm" H 4150 6050 50  0001 C CNN
+F 3 "~" H 4150 6050 50  0001 C CNN
+	1    4150 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5950 3400 5950
+Wire Wire Line
+	3550 5850 3550 6050
+Wire Wire Line
+	3550 6050 3950 6050
+Wire Wire Line
+	3950 6150 3900 6150
+Wire Wire Line
+	3950 6250 3750 6250
+$Comp
+L power:GND #PWR0104
+U 1 1 60C0792D
+P 3400 5950
+F 0 "#PWR0104" H 3400 5700 50  0001 C CNN
+F 1 "GND" H 3405 5777 50  0000 C CNN
+F 2 "" H 3400 5950 50  0001 C CNN
+F 3 "" H 3400 5950 50  0001 C CNN
+	1    3400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 60C07CC9
+P 3550 5850
+F 0 "#PWR0105" H 3550 5700 50  0001 C CNN
+F 1 "VCC" H 3567 6023 50  0000 C CNN
+F 2 "" H 3550 5850 50  0001 C CNN
+F 3 "" H 3550 5850 50  0001 C CNN
+	1    3550 5850
+	1    0    0    -1  
+$EndComp
+Text Label 3550 6150 0    50   ~ 0
+SCL
+Text Label 3550 6250 0    50   ~ 0
+SDA
+Text Label 1000 4650 0    50   ~ 0
+COL_T
+Wire Wire Line
+	1000 4650 1400 4650
+$Comp
+L scaffold:Pro_Micro U1
+U 1 1 60C17F88
+P 2100 4400
+F 0 "U1" H 2100 5237 60  0000 C CNN
+F 1 "Pro_Micro" H 2100 5131 60  0000 C CNN
+F 2 "scaffold:ProMicro_face_down" H 2250 3350 60  0001 C CNN
+F 3 "" H 2250 3350 60  0000 C CNN
+	1    2100 4400
+	1    0    0    -1  
+$EndComp
+Text Label 1000 4950 0    50   ~ 0
+ROW_ADD
+Wire Wire Line
+	1000 4950 1400 4950
+Text Label 3050 4250 0    50   ~ 0
+JOYCON_UD2
+Text Label 3050 4350 0    50   ~ 0
+JOYCON_LR2
+Wire Wire Line
+	3050 4250 2800 4250
+Wire Wire Line
+	2800 4350 3050 4350
+Wire Wire Line
+	8950 2400 8800 2400
+Wire Wire Line
+	8800 1650 8950 1650
+Wire Wire Line
+	8950 900  8800 900 
+Wire Wire Line
+	8350 900  8200 900 
+Wire Wire Line
+	7750 900  7600 900 
+Wire Wire Line
+	7000 900  7150 900 
+Wire Wire Line
+	6500 900  6350 900 
+Wire Wire Line
+	6350 1650 6500 1650
+Wire Wire Line
+	7000 1650 7150 1650
+Wire Wire Line
+	7600 1650 7750 1650
+Wire Wire Line
+	8200 1650 8350 1650
+Wire Wire Line
+	8350 2400 8200 2400
+Wire Wire Line
+	7750 2400 7600 2400
+Wire Wire Line
+	7150 2400 7000 2400
+Wire Wire Line
+	6500 2400 6350 2400
+Text Label 6800 700  0    50   ~ 0
+COL_RP
+Text Label 7450 700  0    50   ~ 0
+COL_RR
+Text Label 8050 700  0    50   ~ 0
+COL_RM
+Text Label 8650 700  0    50   ~ 0
+COL_RI1
+Text Label 9250 700  0    50   ~ 0
+COL_RI2
+$Comp
+L Connector:AudioJack4 J_TRRS_2
+U 1 1 60E6E191
+P 7750 5650
+F 0 "J_TRRS_2" H 7420 5625 50  0000 R CNN
+F 1 "AudioJack4" H 7420 5534 50  0000 R CNN
+F 2 "scaffold:TRRS-PJ-320A" H 7750 5650 50  0001 C CNN
+F 3 "~" H 7750 5650 50  0001 C CNN
+	1    7750 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4250 9350 4250
+Wire Wire Line
+	8350 4050 9000 3950
+Wire Wire Line
+	6950 4150 6400 4150
+Wire Wire Line
+	6950 4250 6950 4150
+Wire Wire Line
+	6950 4350 6550 4350
+Wire Wire Line
+	6550 4450 6950 4450
+Text Label 6550 4450 0    50   ~ 0
+SCL_R
+Text Label 6550 4350 0    50   ~ 0
+SDA_R
+Wire Wire Line
+	6950 4050 6550 4050
+Wire Wire Line
+	8350 4150 8450 4150
+Text Label 8450 4150 0    50   ~ 0
+RST_R
+Text Label 6550 4050 0    50   ~ 0
+SERIAL_R
+NoConn ~ 8350 3950
+Wire Wire Line
+	8350 4550 8900 4550
+Wire Wire Line
+	8900 4650 8350 4650
+Wire Wire Line
+	8350 4750 8900 4750
+Wire Wire Line
+	8900 4850 8350 4850
+Wire Wire Line
+	8350 4950 8900 4950
+Wire Wire Line
+	8900 5050 8350 5050
+Wire Wire Line
+	6950 4950 6550 4950
+Wire Wire Line
+	6550 4850 6950 4850
+Wire Wire Line
+	6950 3950 6550 3950
+Wire Wire Line
+	6950 4650 6550 4650
+Wire Wire Line
+	6450 4550 6950 4550
+NoConn ~ 7550 5650
+Text Label 6550 4950 0    50   ~ 0
+ROW_RB
+Text Label 6550 4850 0    50   ~ 0
+ROW_RM
+Text Label 6550 3950 0    50   ~ 0
+ROW_RT
+Text Label 6550 4650 0    50   ~ 0
+COL_RP
+Text Label 8900 4750 0    50   ~ 0
+COL_RR
+Text Label 8900 4850 0    50   ~ 0
+COL_RM
+Text Label 8900 4950 0    50   ~ 0
+COL_RI1
+Text Label 8900 5050 0    50   ~ 0
+COL_RI2
+Text Label 8900 4550 0    50   ~ 0
+JOYCON_R_UD1
+Text Label 8900 4650 0    50   ~ 0
+JOYCON_R_LR1
+Text Label 6450 4550 0    50   ~ 0
+JOYCON_R_Push
+Wire Wire Line
+	9550 2400 9400 2400
+Wire Wire Line
+	9400 1650 9550 1650
+Wire Wire Line
+	9550 900  9400 900 
+Text Label 9850 700  0    50   ~ 0
+COL_RT
+Text Label 10050 1200 0    50   ~ 0
+ROW_RT
+Text Label 10050 1950 0    50   ~ 0
+ROW_RM
+Text Label 10050 2700 0    50   ~ 0
+ROW_RB
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 60E6E1E4
+P 9000 3950
+F 0 "#FLG0103" H 9000 4025 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 4123 50  0000 C CNN
+F 2 "" H 9000 3950 50  0001 C CNN
+F 3 "~" H 9000 3950 50  0001 C CNN
+	1    9000 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 3950
+Wire Wire Line
+	9000 3950 9150 3950
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 60E6E1F0
+P 9350 4250
+F 0 "#FLG0104" H 9350 4325 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 4423 50  0000 C CNN
+F 2 "" H 9350 4250 50  0001 C CNN
+F 3 "~" H 9350 4250 50  0001 C CNN
+	1    9350 4250
+	1    0    0    1   
+$EndComp
+Connection ~ 9350 4250
+Wire Wire Line
+	9350 4250 9400 4250
+Wire Wire Line
+	7550 5550 7400 5550
+Wire Wire Line
+	7400 5550 7400 5500
+Wire Wire Line
+	7550 5750 7200 5750
+Wire Wire Line
+	7550 5850 7400 5850
+Wire Wire Line
+	7400 5850 7400 5900
+Text Label 7200 5750 0    50   ~ 0
+SERIAL_R
+Connection ~ 6950 4150
+$Comp
+L scaffold:Joycon Joycon_thumb2
+U 1 1 60E6E217
+P 10700 5200
+F 0 "Joycon_thumb2" H 10930 5242 50  0000 L CNN
+F 1 "Joycon" H 10930 5151 50  0000 L CNN
+F 2 "scaffold:FPC_1x05-P0.5mm_Aliexpress" H 10850 5200 50  0001 C CNN
+F 3 "" H 10850 5200 50  0001 C CNN
+	1    10700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 5000 10350 5000
+Wire Wire Line
+	10350 5000 10350 4950
+Wire Wire Line
+	10450 5100 9800 5100
+Wire Wire Line
+	10450 5200 9800 5200
+Wire Wire Line
+	10450 5300 10350 5300
+Wire Wire Line
+	10350 5300 10350 5450
+Wire Wire Line
+	10450 5400 9800 5400
+Text Label 9800 5400 0    50   ~ 0
+JOYCON_R_LR1
+Text Label 9800 5100 0    50   ~ 0
+JOYCON_R_UD1
+Text Label 9800 5200 0    50   ~ 0
+JOYCON_R_Push
+$Comp
+L Switch:SW_Push SW2
+U 1 1 60E6E23F
+P 6550 5750
+F 0 "SW2" H 6550 6035 50  0000 C CNN
+F 1 "SW_Push" H 6550 5944 50  0000 C CNN
+F 2 "scaffold:SW_PUSH_6mm_H4.3mm_no_SilkS" H 6550 5950 50  0001 C CNN
+F 3 "~" H 6550 5950 50  0001 C CNN
+	1    6550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5750 6200 5750
+Wire Wire Line
+	6200 5750 6200 5800
+Wire Wire Line
+	6750 5750 6900 5750
+Text Label 6900 5750 0    50   ~ 0
+RST_R
+$Comp
+L scaffold:Joycon Joycon_index2
+U 1 1 60E6E257
+P 10700 4100
+F 0 "Joycon_index2" H 10930 4142 50  0000 L CNN
+F 1 "Joycon" H 10930 4051 50  0000 L CNN
+F 2 "scaffold:joycon_flat_flex_cable_passing_through_pcb" H 10850 4100 50  0001 C CNN
+F 3 "" H 10850 4100 50  0001 C CNN
+	1    10700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3900 10350 3900
+Wire Wire Line
+	10350 3900 10350 3850
+Wire Wire Line
+	10450 4000 9800 4000
+Wire Wire Line
+	10450 4100 9800 4100
+Wire Wire Line
+	10450 4200 10350 4200
+Wire Wire Line
+	10350 4200 10350 4350
+Wire Wire Line
+	10450 4300 9800 4300
+Text Label 9800 4300 0    50   ~ 0
+JOYCON_R_LR2
+Text Label 9800 4000 0    50   ~ 0
+JOYCON_R_UD2
+Text Label 9800 4100 0    50   ~ 0
+JOYCON_R_Push
+Wire Wire Line
+	9250 700  9250 900 
+Wire Wire Line
+	8650 700  8650 900 
+Wire Wire Line
+	8050 700  8050 900 
+Wire Wire Line
+	6350 2700 7000 2700
+Wire Wire Line
+	6350 1950 7000 1950
+Wire Wire Line
+	7450 700  7450 900 
+Wire Wire Line
+	6350 1200 7000 1200
+Wire Wire Line
+	6800 700  6800 900 
+Text Label 10000 3450 0    50   ~ 0
+ROW_RADD
+$Comp
+L scaffold:Col3 ColR1
+U 1 1 60E6E288
+P 6600 1800
+F 0 "ColR1" H 6844 1874 50  0000 L CNN
+F 1 "Col3" H 6844 1783 50  0000 L CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 6350 1795 50  0001 C CNN
+F 3 "" V 6350 1795 50  0001 C CNN
+	1    6600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 900  6800 1650
+Connection ~ 6800 900 
+Connection ~ 6800 1650
+Wire Wire Line
+	6800 1650 6800 2400
+$Comp
+L scaffold:Col4 ColR2
+U 1 1 60E6E296
+P 7250 1800
+F 0 "ColR2" H 7494 1874 50  0000 L CNN
+F 1 "Col4" H 7494 1783 50  0000 L CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 7000 1795 50  0001 C CNN
+F 3 "" V 7000 1795 50  0001 C CNN
+	1    7250 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 2700
+Wire Wire Line
+	7000 2700 7600 2700
+Connection ~ 7000 1950
+Wire Wire Line
+	7000 1950 7600 1950
+Connection ~ 7000 1200
+Wire Wire Line
+	7000 1200 7600 1200
+$Comp
+L scaffold:Col4 ColR3
+U 1 1 60E6E2A6
+P 7850 1800
+F 0 "ColR3" H 8094 1874 50  0000 L CNN
+F 1 "Col4" H 8094 1783 50  0000 L CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 7600 1795 50  0001 C CNN
+F 3 "" V 7600 1795 50  0001 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 7600 2700
+Wire Wire Line
+	7600 2700 8200 2700
+Connection ~ 7600 1950
+Wire Wire Line
+	7600 1950 8200 1950
+Connection ~ 7600 1200
+Wire Wire Line
+	7600 1200 8200 1200
+$Comp
+L scaffold:Col4 ColR4
+U 1 1 60E6E2B6
+P 8450 1800
+F 0 "ColR4" H 8694 1874 50  0000 L CNN
+F 1 "Col4" H 8694 1783 50  0000 L CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 8200 1795 50  0001 C CNN
+F 3 "" V 8200 1795 50  0001 C CNN
+	1    8450 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 2700
+Wire Wire Line
+	8200 2700 8800 2700
+Connection ~ 8200 1950
+Wire Wire Line
+	8200 1950 8800 1950
+Connection ~ 8200 1200
+Wire Wire Line
+	8200 1200 8800 1200
+$Comp
+L scaffold:Col3 ColR5
+U 1 1 60E6E2C6
+P 9050 1800
+F 0 "ColR5" H 9294 1874 50  0000 L CNN
+F 1 "Col3" H 9294 1783 50  0000 L CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 8800 1795 50  0001 C CNN
+F 3 "" V 8800 1795 50  0001 C CNN
+	1    9050 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8800 2700
+Connection ~ 8800 1950
+Connection ~ 8800 1200
+Wire Wire Line
+	7000 3450 7600 3450
+Connection ~ 7600 3450
+Wire Wire Line
+	7600 3450 8200 3450
+Connection ~ 8200 3450
+Wire Wire Line
+	8200 3450 10000 3450
+Wire Wire Line
+	9250 2400 9250 1650
+Connection ~ 9250 900 
+Connection ~ 9250 1650
+Wire Wire Line
+	9250 1650 9250 900 
+Wire Wire Line
+	8650 900  8650 1650
+Connection ~ 8650 900 
+Connection ~ 8650 1650
+Wire Wire Line
+	8650 1650 8650 2400
+Connection ~ 8650 2400
+Wire Wire Line
+	8650 2400 8650 3150
+Wire Wire Line
+	8350 3150 8200 3150
+Wire Wire Line
+	8050 3150 8050 2400
+Connection ~ 8050 900 
+Connection ~ 8050 1650
+Wire Wire Line
+	8050 1650 8050 900 
+Connection ~ 8050 2400
+Wire Wire Line
+	8050 2400 8050 1650
+Wire Wire Line
+	7450 900  7450 1650
+Connection ~ 7450 900 
+Connection ~ 7450 1650
+Wire Wire Line
+	7450 1650 7450 2400
+Connection ~ 7450 2400
+Wire Wire Line
+	7450 2400 7450 3150
+Wire Wire Line
+	7600 3150 7750 3150
+Wire Wire Line
+	7150 3150 7000 3150
+Wire Wire Line
+	8800 1200 9400 1200
+Wire Wire Line
+	9850 700  9850 900 
+Wire Wire Line
+	8800 1950 9400 1950
+Wire Wire Line
+	8800 2700 9400 2700
+$Comp
+L scaffold:SW_and_D SW_and_DR1
+U 1 1 60E6E2F5
+P 9650 1050
+F 0 "SW_and_DR1" H 9894 1124 50  0000 L CNN
+F 1 "SW_and_D" H 9894 1033 50  0000 L CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 9400 1045 50  0001 C CNN
+F 3 "" V 9400 1045 50  0001 C CNN
+	1    9650 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 900 
+Wire Wire Line
+	9850 900  9850 1650
+Connection ~ 9400 1200
+Wire Wire Line
+	9400 1200 10050 1200
+$Comp
+L scaffold:SW_and_D SW_and_DR2
+U 1 1 60E6E303
+P 9650 1800
+F 0 "SW_and_DR2" H 9894 1874 50  0000 L CNN
+F 1 "SW_and_D" H 9894 1783 50  0000 L CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 9400 1795 50  0001 C CNN
+F 3 "" V 9400 1795 50  0001 C CNN
+	1    9650 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 1650
+Wire Wire Line
+	9850 1650 9850 2400
+Connection ~ 9400 1950
+Wire Wire Line
+	9400 1950 10050 1950
+$Comp
+L scaffold:SW_and_D SW_and_DR3
+U 1 1 60E6E311
+P 9650 2550
+F 0 "SW_and_DR3" H 9894 2624 50  0000 L CNN
+F 1 "SW_and_D" H 9894 2533 50  0000 L CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 9400 2545 50  0001 C CNN
+F 3 "" V 9400 2545 50  0001 C CNN
+	1    9650 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9400 2700
+Wire Wire Line
+	9400 2700 10050 2700
+$Comp
+L scaffold:OLED OLED2
+U 1 1 60E6E31D
+P 9450 5800
+F 0 "OLED2" H 9530 5792 50  0000 L CNN
+F 1 "OLED" H 9530 5701 50  0000 L CNN
+F 2 "scaffold:OLED_PinHeader_1x04_P2.54mm" H 9450 5800 50  0001 C CNN
+F 3 "~" H 9450 5800 50  0001 C CNN
+	1    9450 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5600 8850 5800
+Wire Wire Line
+	8850 5800 9250 5800
+Wire Wire Line
+	9250 5900 9200 5900
+Wire Wire Line
+	9250 6000 9100 6000
+Text Label 8850 5900 0    50   ~ 0
+SCL_R
+Text Label 8850 6000 0    50   ~ 0
+SDA_R
+Text Label 6550 4750 0    50   ~ 0
+COL_RT
+Wire Wire Line
+	6550 4750 6950 4750
+$Comp
+L scaffold:Pro_Micro U2
+U 1 1 60E6E344
+P 7650 4500
+F 0 "U2" H 7650 5337 60  0000 C CNN
+F 1 "Pro_Micro" H 7650 5231 60  0000 C CNN
+F 2 "scaffold:ProMicro_face_down" H 7800 3450 60  0001 C CNN
+F 3 "" H 7800 3450 60  0000 C CNN
+	1    7650 4500
+	1    0    0    -1  
+$EndComp
+Text Label 6550 5050 0    50   ~ 0
+ROW_RADD
+Wire Wire Line
+	6550 5050 6950 5050
+Text Label 8600 4350 0    50   ~ 0
+JOYCON_R_UD2
+Text Label 8600 4450 0    50   ~ 0
+JOYCON_R_LR2
+Wire Wire Line
+	8600 4350 8350 4350
+Wire Wire Line
+	8350 4450 8600 4450
+$Comp
+L power:+5V #PWR0110
+U 1 1 60FE15A0
+P 10350 3850
+F 0 "#PWR0110" H 10350 3700 50  0001 C CNN
+F 1 "+5V" H 10365 4023 50  0000 C CNN
+F 2 "" H 10350 3850 50  0001 C CNN
+F 3 "" H 10350 3850 50  0001 C CNN
+	1    10350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 60FE272E
+P 9400 4250
+F 0 "#PWR0111" H 9400 4100 50  0001 C CNN
+F 1 "+5V" H 9415 4423 50  0000 C CNN
+F 2 "" H 9400 4250 50  0001 C CNN
+F 3 "" H 9400 4250 50  0001 C CNN
+	1    9400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 60FE2EC9
+P 10350 4950
+F 0 "#PWR0112" H 10350 4800 50  0001 C CNN
+F 1 "+5V" H 10365 5123 50  0000 C CNN
+F 2 "" H 10350 4950 50  0001 C CNN
+F 3 "" H 10350 4950 50  0001 C CNN
+	1    10350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 60FE34F0
+P 8850 5600
+F 0 "#PWR0113" H 8850 5450 50  0001 C CNN
+F 1 "+5V" H 8865 5773 50  0000 C CNN
+F 2 "" H 8850 5600 50  0001 C CNN
+F 3 "" H 8850 5600 50  0001 C CNN
+	1    8850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 60FEB889
+P 7400 5500
+F 0 "#PWR0114" H 7400 5350 50  0001 C CNN
+F 1 "+5V" H 7415 5673 50  0000 C CNN
+F 2 "" H 7400 5500 50  0001 C CNN
+F 3 "" H 7400 5500 50  0001 C CNN
+	1    7400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0115
+U 1 1 60FEC375
+P 6200 5800
+F 0 "#PWR0115" H 6200 5550 50  0001 C CNN
+F 1 "GNDD" H 6204 5645 50  0000 C CNN
+F 2 "" H 6200 5800 50  0001 C CNN
+F 3 "" H 6200 5800 50  0001 C CNN
+	1    6200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0117
+U 1 1 60FECA29
+P 7400 5900
+F 0 "#PWR0117" H 7400 5650 50  0001 C CNN
+F 1 "GNDD" H 7404 5745 50  0000 C CNN
+F 2 "" H 7400 5900 50  0001 C CNN
+F 3 "" H 7400 5900 50  0001 C CNN
+	1    7400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0118
+U 1 1 60FECFDA
+P 8700 5700
+F 0 "#PWR0118" H 8700 5450 50  0001 C CNN
+F 1 "GNDD" H 8704 5545 50  0000 C CNN
+F 2 "" H 8700 5700 50  0001 C CNN
+F 3 "" H 8700 5700 50  0001 C CNN
+	1    8700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0119
+U 1 1 60FED72E
+P 6400 4150
+F 0 "#PWR0119" H 6400 3900 50  0001 C CNN
+F 1 "GNDD" H 6404 3995 50  0000 C CNN
+F 2 "" H 6400 4150 50  0001 C CNN
+F 3 "" H 6400 4150 50  0001 C CNN
+	1    6400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0120
+U 1 1 60FEDE07
+P 9150 3950
+F 0 "#PWR0120" H 9150 3700 50  0001 C CNN
+F 1 "GNDD" H 9154 3795 50  0000 C CNN
+F 2 "" H 9150 3950 50  0001 C CNN
+F 3 "" H 9150 3950 50  0001 C CNN
+	1    9150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0123
+U 1 1 60FEE553
+P 10350 4350
+F 0 "#PWR0123" H 10350 4100 50  0001 C CNN
+F 1 "GNDD" H 10354 4195 50  0000 C CNN
+F 2 "" H 10350 4350 50  0001 C CNN
+F 3 "" H 10350 4350 50  0001 C CNN
+	1    10350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0124
+U 1 1 60FEEA7C
+P 10350 5450
+F 0 "#PWR0124" H 10350 5200 50  0001 C CNN
+F 1 "GNDD" H 10354 5295 50  0000 C CNN
+F 2 "" H 10350 5450 50  0001 C CNN
+F 3 "" H 10350 5450 50  0001 C CNN
+	1    10350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R_SDA_1
+U 1 1 610A9ED1
+P 3750 6450
+F 0 "R_SDA_1" H 3820 6496 50  0000 L CNN
+F 1 "4.7k" H 3820 6405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3680 6450 50  0001 C CNN
+F 3 "~" H 3750 6450 50  0001 C CNN
+	1    3750 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R_SCL_1
+U 1 1 610AA450
+P 3900 5700
+F 0 "R_SCL_1" H 3970 5746 50  0000 L CNN
+F 1 "4.7k" H 3970 5655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 5700 50  0001 C CNN
+F 3 "~" H 3900 5700 50  0001 C CNN
+	1    3900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6300 3750 6250
+Connection ~ 3750 6250
+Wire Wire Line
+	3750 6250 3550 6250
+Wire Wire Line
+	3900 6150 3900 5850
+Connection ~ 3900 6150
+Wire Wire Line
+	3900 6150 3550 6150
+Wire Wire Line
+	3900 5550 3750 5550
+Wire Wire Line
+	4200 6600 3750 6600
+$Comp
+L Device:R R_SCL_2
+U 1 1 610EBA33
+P 9200 5450
+F 0 "R_SCL_2" H 9270 5496 50  0000 L CNN
+F 1 "4.7k" H 9270 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9130 5450 50  0001 C CNN
+F 3 "~" H 9200 5450 50  0001 C CNN
+	1    9200 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5300 9050 5300
+$Comp
+L Device:R R_SDA_2
+U 1 1 6111E28E
+P 9100 6200
+F 0 "R_SDA_2" H 9170 6246 50  0000 L CNN
+F 1 "4.7k" H 9170 6155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9030 6200 50  0001 C CNN
+F 3 "~" H 9100 6200 50  0001 C CNN
+	1    9100 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 6350 9100 6350
+Wire Wire Line
+	9100 6050 9100 6000
+Connection ~ 9100 6000
+Wire Wire Line
+	9100 6000 8850 6000
+Wire Wire Line
+	8700 5700 9250 5700
+Wire Wire Line
+	9200 5600 9200 5900
+Connection ~ 9200 5900
+Wire Wire Line
+	9200 5900 8850 5900
+$Comp
+L power:VCC #PWR0125
+U 1 1 61150446
+P 3750 5550
+F 0 "#PWR0125" H 3750 5400 50  0001 C CNN
+F 1 "VCC" H 3767 5723 50  0000 C CNN
+F 2 "" H 3750 5550 50  0001 C CNN
+F 3 "" H 3750 5550 50  0001 C CNN
+	1    3750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0126
+U 1 1 61150A48
+P 4200 6600
+F 0 "#PWR0126" H 4200 6450 50  0001 C CNN
+F 1 "VCC" H 4217 6773 50  0000 C CNN
+F 2 "" H 4200 6600 50  0001 C CNN
+F 3 "" H 4200 6600 50  0001 C CNN
+	1    4200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 6116390E
+P 9050 5300
+F 0 "#PWR0127" H 9050 5150 50  0001 C CNN
+F 1 "+5V" H 9065 5473 50  0000 C CNN
+F 2 "" H 9050 5300 50  0001 C CNN
+F 3 "" H 9050 5300 50  0001 C CNN
+	1    9050 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0128
+U 1 1 61163BB2
+P 9600 6350
+F 0 "#PWR0128" H 9600 6200 50  0001 C CNN
+F 1 "+5V" H 9615 6523 50  0000 C CNN
+F 2 "" H 9600 6350 50  0001 C CNN
+F 3 "" H 9600 6350 50  0001 C CNN
+	1    9600 6350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
