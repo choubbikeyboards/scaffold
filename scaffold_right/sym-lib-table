@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name scaffold)(type Legacy)(uri ${KIPRJMOD}/../scaffold.lib)(options "")(descr ""))
-)
