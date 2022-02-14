@@ -8,6 +8,8 @@ Status
 ------
 
 This is still pretty much a prototype. The files I provide here have not yet been made into a PCB, although a previous version with minor changes has been tested successfully for some parts, and not so much for others.
+Software side is not too advanced either, and you'll have to write your own QMK keymap.c file, as I didn't write a basic QWERTY keymap yet, and mine is pretty tuned to my personal use, with combos and stuff that works only for US-International OS-side layout.
+The files for QMK can be found on my personal fork of QMK (https://github.com/choubbikeyboards/qmk_firmware/tree/master/keyboards/scaffold).
 
 Important, read before ordering the PCBs!
 -----------------------------------------
@@ -61,8 +63,11 @@ Optional, for each OLED screen you want:
 Assembly guide
 --------------
 
+NOTE: This guide shows pictures of the version 1 of the keyboard. Current version (V2) uses inside soldering for the angled supports, both for the individual PCB and the main PCB. This shouldn't add much difficulty. This was done in order to get the whole PCB structure to interact better with the switches, as the previous version required the user to push hard on a switch to make it fit (slightly deforming the small plastic legs of the switch).
+
 This is a quick overview of how to assemble a Scaffold keyboard. It shows only the right hand half, and skips the main components (MCU, OLED and its resistors...). It also shows a 3x5 configuration. For a 4x4-1 configuration, use the angled supports only for the top and bottom key of each column, and use hotswap sockets for the switches in between.
 
+* Optional step: you can pre-tin the pads on the PCB pieces that you will solder on the board. The current version (V2 when I edit this guide) needs only one side of the angled pieces pre-tinned, and only the underside of the key holder pieces. Just be careful not to fill the switch pin holes when doing so.
 * 1st step is to separate the pieces you'll need: each angled key needs 2 angled supports and an individual key holder.
 * Then, start putting solder on one of the pads of each SMD diode, for the flat keys only (so 5 keys + thumbs here for a 3x5 configuration, 7 keys + thumbs for a 4x4-1 configuration)
 
@@ -103,10 +108,12 @@ This is a quick overview of how to assemble a Scaffold keyboard. It shows only t
 * Back to the angled holders: push the switch all the way in (requires a bit of force, but be careful not to bend a pin), and solder the pins to the small board.
 
 ![step13](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/13-solder_switch_to_small_board.jpg)
-* Now you have to solder the angled supports to the main PCB. The order of soldering can make things a bit simpler, but there will always remain a few tricky spots to solder.
+* \[Version 2: soldering is now on the inside of the "box" to attach to the main PCB. Trickier, but fewer chances of shorting two adjacent switches together and better fit of the switch in the PCB\]
+Now you have to solder the angled supports to the main PCB. The order of soldering can make things a bit simpler, but there will always remain a few tricky spots to solder.
 
 ![step14](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/14-solder_angled_keys_1.jpg)
-* Make sure to avoid soldering 2 adjacent switches together!
+* \[Version 2 solves this problem\]
+Make sure to avoid soldering 2 adjacent switches together!
 
 ![step15](https://github.com/choubbikeyboards/scaffold/blob/main/tutorial_img/15-solder_angled_keys_2.jpg)
 * Having the flat key switches off the board makes things easier.

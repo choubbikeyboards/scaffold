@@ -25,7 +25,7 @@ U 1 1 60F34CDB
 P 3350 1200
 F 0 "SW_and_D26" H 3594 1274 50  0000 L CNN
 F 1 "SW_and_D" H 3594 1183 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 3100 1195 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 3100 1195 50  0001 C CNN
 F 3 "" V 3100 1195 50  0001 C CNN
 	1    3350 1200
 	1    0    0    -1  
@@ -40,7 +40,7 @@ U 1 1 60F34CCE
 P 4400 1200
 F 0 "SW_and_D27" H 4644 1274 50  0000 L CNN
 F 1 "SW_and_D" H 4644 1183 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 4150 1195 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 4150 1195 50  0001 C CNN
 F 3 "" V 4150 1195 50  0001 C CNN
 	1    4400 1200
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 60F34CC3
 P 1250 1200
 F 0 "SW_and_D21" H 1494 1274 50  0000 L CNN
 F 1 "SW_and_D" H 1494 1183 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left" V 1000 1195 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left_v2" V 1000 1195 50  0001 C CNN
 F 3 "" V 1000 1195 50  0001 C CNN
 	1    1250 1200
 	1    0    0    -1  
@@ -68,7 +68,7 @@ U 1 1 60F34CB6
 P 2300 1200
 F 0 "SW_and_D25" H 2544 1274 50  0000 L CNN
 F 1 "SW_and_D" H 2544 1183 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 2050 1195 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 2050 1195 50  0001 C CNN
 F 3 "" V 2050 1195 50  0001 C CNN
 	1    2300 1200
 	1    0    0    -1  
@@ -80,7 +80,7 @@ U 1 1 60E64FB2
 P 1250 700
 F 0 "SW_and_D1" H 1494 774 50  0000 L CNN
 F 1 "SW_and_D" H 1494 683 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_left" V 1000 695 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_left_v2" V 1000 695 50  0001 C CNN
 F 3 "" V 1000 695 50  0001 C CNN
 	1    1250 700 
 	1    0    0    -1  
@@ -91,7 +91,7 @@ U 1 1 60E7100E
 P 1250 3000
 F 0 "SW_and_D5" H 1494 3074 50  0000 L CNN
 F 1 "SW_and_D" H 1494 2983 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_left" V 1000 2995 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_left_v2" V 1000 2995 50  0001 C CNN
 F 3 "" V 1000 2995 50  0001 C CNN
 	1    1250 3000
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 60EDC0FA
 P 4400 3000
 F 0 "SW_and_D20" H 4644 3074 50  0000 L CNN
 F 1 "SW_and_D" H 4644 2983 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom" V 4150 2995 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_v2" V 4150 2995 50  0001 C CNN
 F 3 "" V 4150 2995 50  0001 C CNN
 	1    4400 3000
 	1    0    0    -1  
@@ -134,7 +134,7 @@ U 1 1 60ED11E5
 P 6500 2550
 F 0 "SW_and_D24" H 6744 2624 50  0000 L CNN
 F 1 "SW_and_D" H 6744 2533 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right" V 6250 2545 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right_v2" V 6250 2545 50  0001 C CNN
 F 3 "" V 6250 2545 50  0001 C CNN
 	1    6500 2550
 	1    0    0    -1  
@@ -149,7 +149,7 @@ U 1 1 60ED11D8
 P 4400 2550
 F 0 "SW_and_D19" H 4644 2624 50  0000 L CNN
 F 1 "SW_and_D" H 4644 2533 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 4150 2545 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 4150 2545 50  0001 C CNN
 F 3 "" V 4150 2545 50  0001 C CNN
 	1    4400 2550
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 60E711B0
 P 6500 2100
 F 0 "SW_and_D23" H 6744 2174 50  0000 L CNN
 F 1 "SW_and_D" H 6744 2083 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right" V 6250 2095 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right_v2" V 6250 2095 50  0001 C CNN
 F 3 "" V 6250 2095 50  0001 C CNN
 	1    6500 2100
 	1    0    0    -1  
@@ -179,7 +179,7 @@ U 1 1 60E711A3
 P 6500 1650
 F 0 "SW_and_D22" H 6744 1724 50  0000 L CNN
 F 1 "SW_and_D" H 6744 1633 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right" V 6250 1645 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right_v2" V 6250 1645 50  0001 C CNN
 F 3 "" V 6250 1645 50  0001 C CNN
 	1    6500 1650
 	1    0    0    -1  
@@ -194,7 +194,7 @@ U 1 1 60E6BF49
 P 3350 3000
 F 0 "SW_and_D15" H 3594 3074 50  0000 L CNN
 F 1 "SW_and_D" H 3594 2983 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom" V 3100 2995 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_v2" V 3100 2995 50  0001 C CNN
 F 3 "" V 3100 2995 50  0001 C CNN
 	1    3350 3000
 	1    0    0    -1  
@@ -209,7 +209,7 @@ U 1 1 60E6BF2E
 P 2300 3000
 F 0 "SW_and_D10" H 2544 3074 50  0000 L CNN
 F 1 "SW_and_D" H 2544 2983 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom" V 2050 2995 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_v2" V 2050 2995 50  0001 C CNN
 F 3 "" V 2050 2995 50  0001 C CNN
 	1    2300 3000
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 60E5B3FF
 P 3350 2550
 F 0 "SW_and_D14" H 3594 2624 50  0000 L CNN
 F 1 "SW_and_D" H 3594 2533 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 3100 2545 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 3100 2545 50  0001 C CNN
 F 3 "" V 3100 2545 50  0001 C CNN
 	1    3350 2550
 	1    0    0    -1  
@@ -237,7 +237,7 @@ U 1 1 60E5B3E5
 P 1250 2550
 F 0 "SW_and_D4" H 1494 2624 50  0000 L CNN
 F 1 "SW_and_D" H 1494 2533 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left" V 1000 2545 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left_v2" V 1000 2545 50  0001 C CNN
 F 3 "" V 1000 2545 50  0001 C CNN
 	1    1250 2550
 	1    0    0    -1  
@@ -252,7 +252,7 @@ U 1 1 60E5B3D8
 P 2300 2550
 F 0 "SW_and_D9" H 2544 2624 50  0000 L CNN
 F 1 "SW_and_D" H 2544 2533 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 2050 2545 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 2050 2545 50  0001 C CNN
 F 3 "" V 2050 2545 50  0001 C CNN
 	1    2300 2550
 	1    0    0    -1  
@@ -267,7 +267,7 @@ U 1 1 60E5B3CB
 P 3350 2100
 F 0 "SW_and_D13" H 3594 2174 50  0000 L CNN
 F 1 "SW_and_D" H 3594 2083 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 3100 2095 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 3100 2095 50  0001 C CNN
 F 3 "" V 3100 2095 50  0001 C CNN
 	1    3350 2100
 	1    0    0    -1  
@@ -282,7 +282,7 @@ U 1 1 60E5B3BE
 P 4400 2100
 F 0 "SW_and_D18" H 4644 2174 50  0000 L CNN
 F 1 "SW_and_D" H 4644 2083 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 4150 2095 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 4150 2095 50  0001 C CNN
 F 3 "" V 4150 2095 50  0001 C CNN
 	1    4400 2100
 	1    0    0    -1  
@@ -295,7 +295,7 @@ U 1 1 60E5B3B1
 P 1250 2100
 F 0 "SW_and_D3" H 1494 2174 50  0000 L CNN
 F 1 "SW_and_D" H 1494 2083 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left" V 1000 2095 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left_v2" V 1000 2095 50  0001 C CNN
 F 3 "" V 1000 2095 50  0001 C CNN
 	1    1250 2100
 	1    0    0    -1  
@@ -310,7 +310,7 @@ U 1 1 60E5B3A4
 P 2300 2100
 F 0 "SW_and_D8" H 2544 2174 50  0000 L CNN
 F 1 "SW_and_D" H 2544 2083 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 2050 2095 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 2050 2095 50  0001 C CNN
 F 3 "" V 2050 2095 50  0001 C CNN
 	1    2300 2100
 	1    0    0    -1  
@@ -325,7 +325,7 @@ U 1 1 60E54E31
 P 3350 1650
 F 0 "SW_and_D12" H 3594 1724 50  0000 L CNN
 F 1 "SW_and_D" H 3594 1633 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 3100 1645 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 3100 1645 50  0001 C CNN
 F 3 "" V 3100 1645 50  0001 C CNN
 	1    3350 1650
 	1    0    0    -1  
@@ -340,7 +340,7 @@ U 1 1 60E54E24
 P 4400 1650
 F 0 "SW_and_D17" H 4644 1724 50  0000 L CNN
 F 1 "SW_and_D" H 4644 1633 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 4150 1645 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 4150 1645 50  0001 C CNN
 F 3 "" V 4150 1645 50  0001 C CNN
 	1    4400 1650
 	1    0    0    -1  
@@ -353,7 +353,7 @@ U 1 1 60E54E17
 P 1250 1650
 F 0 "SW_and_D2" H 1494 1724 50  0000 L CNN
 F 1 "SW_and_D" H 1494 1633 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left" V 1000 1645 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_left_v2" V 1000 1645 50  0001 C CNN
 F 3 "" V 1000 1645 50  0001 C CNN
 	1    1250 1650
 	1    0    0    -1  
@@ -368,7 +368,7 @@ U 1 1 60E54E0A
 P 2300 1650
 F 0 "SW_and_D7" H 2544 1724 50  0000 L CNN
 F 1 "SW_and_D" H 2544 1633 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 2050 1645 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 2050 1645 50  0001 C CNN
 F 3 "" V 2050 1645 50  0001 C CNN
 	1    2300 1650
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 1 1 60E4F797
 P 3350 700
 F 0 "SW_and_D11" H 3594 774 50  0000 L CNN
 F 1 "SW_and_D" H 3594 683 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top" V 3100 695 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_v2" V 3100 695 50  0001 C CNN
 F 3 "" V 3100 695 50  0001 C CNN
 	1    3350 700 
 	1    0    0    -1  
@@ -398,7 +398,7 @@ U 1 1 60E4F78A
 P 4400 700
 F 0 "SW_and_D16" H 4644 774 50  0000 L CNN
 F 1 "SW_and_D" H 4644 683 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top" V 4150 695 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_v2" V 4150 695 50  0001 C CNN
 F 3 "" V 4150 695 50  0001 C CNN
 	1    4400 700 
 	1    0    0    -1  
@@ -413,7 +413,7 @@ U 1 1 60E4AD4D
 P 2300 700
 F 0 "SW_and_D6" H 2544 774 50  0000 L CNN
 F 1 "SW_and_D" H 2544 683 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top" V 2050 695 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_v2" V 2050 695 50  0001 C CNN
 F 3 "" V 2050 695 50  0001 C CNN
 	1    2300 700 
 	1    0    0    -1  
@@ -428,7 +428,7 @@ U 1 1 60FC3C65
 P 5450 2550
 F 0 "SW_and_D30" H 5694 2624 50  0000 L CNN
 F 1 "SW_and_D" H 5694 2533 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 5200 2545 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 5200 2545 50  0001 C CNN
 F 3 "" V 5200 2545 50  0001 C CNN
 	1    5450 2550
 	1    0    0    -1  
@@ -443,7 +443,7 @@ U 1 1 60FC3C72
 P 5450 2100
 F 0 "SW_and_D29" H 5694 2174 50  0000 L CNN
 F 1 "SW_and_D" H 5694 2083 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 5200 2095 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 5200 2095 50  0001 C CNN
 F 3 "" V 5200 2095 50  0001 C CNN
 	1    5450 2100
 	1    0    0    -1  
@@ -458,7 +458,7 @@ U 1 1 60FC3C7F
 P 5450 1650
 F 0 "SW_and_D28" H 5694 1724 50  0000 L CNN
 F 1 "SW_and_D" H 5694 1633 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 5200 1645 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 5200 1645 50  0001 C CNN
 F 3 "" V 5200 1645 50  0001 C CNN
 	1    5450 1650
 	1    0    0    -1  
@@ -473,7 +473,7 @@ U 1 1 6102AB39
 P 5500 3000
 F 0 "SW_and_D33" H 5744 3074 50  0000 L CNN
 F 1 "SW_and_D" H 5744 2983 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom" V 5250 2995 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_v2" V 5250 2995 50  0001 C CNN
 F 3 "" V 5250 2995 50  0001 C CNN
 	1    5500 3000
 	1    0    0    -1  
@@ -488,7 +488,7 @@ U 1 1 610469E9
 P 5450 1200
 F 0 "SW_and_D32" H 5694 1274 50  0000 L CNN
 F 1 "SW_and_D" H 5694 1183 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center" V 5200 1195 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_center_v2" V 5200 1195 50  0001 C CNN
 F 3 "" V 5200 1195 50  0001 C CNN
 	1    5450 1200
 	1    0    0    -1  
@@ -503,7 +503,7 @@ U 1 1 610469F6
 P 6500 1200
 F 0 "SW_and_D35" H 6744 1274 50  0000 L CNN
 F 1 "SW_and_D" H 6744 1183 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right" V 6250 1195 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_right_v2" V 6250 1195 50  0001 C CNN
 F 3 "" V 6250 1195 50  0001 C CNN
 	1    6500 1200
 	1    0    0    -1  
@@ -518,7 +518,7 @@ U 1 1 61046A03
 P 5450 700
 F 0 "SW_and_D31" H 5694 774 50  0000 L CNN
 F 1 "SW_and_D" H 5694 683 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top" V 5200 695 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_v2" V 5200 695 50  0001 C CNN
 F 3 "" V 5200 695 50  0001 C CNN
 	1    5450 700 
 	1    0    0    -1  
@@ -533,7 +533,7 @@ U 1 1 60ED0824
 P 6500 700
 F 0 "SW_and_D34" H 6744 774 50  0000 L CNN
 F 1 "SW_and_D" H 6744 683 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_right" V 6250 695 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_top_right_v2" V 6250 695 50  0001 C CNN
 F 3 "" V 6250 695 50  0001 C CNN
 	1    6500 700 
 	1    0    0    -1  
@@ -548,7 +548,7 @@ U 1 1 60EE774F
 P 6500 3000
 F 0 "SW_and_D36" H 6744 3074 50  0000 L CNN
 F 1 "SW_and_D" H 6744 2983 50  0000 L CNN
-F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_right" V 6250 2995 50  0001 C CNN
+F 2 "scaffold:Kailh_PG1350_and_sod123_and_cutouts_bottom_right_v2" V 6250 2995 50  0001 C CNN
 F 3 "" V 6250 2995 50  0001 C CNN
 	1    6500 3000
 	1    0    0    -1  

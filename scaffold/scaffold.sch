@@ -404,7 +404,7 @@ U 1 1 60CB218B
 P 1050 1700
 F 0 "Col1" H 1294 1774 50  0000 L CNN
 F 1 "Col3" H 1294 1683 50  0000 L CNN
-F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 800 1695 50  0001 C CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts_v2" V 800 1695 50  0001 C CNN
 F 3 "" V 800 1695 50  0001 C CNN
 	1    1050 1700
 	1    0    0    -1  
@@ -421,7 +421,7 @@ U 1 1 60CB7AF3
 P 1700 1700
 F 0 "Col2" H 1944 1774 50  0000 L CNN
 F 1 "Col4" H 1944 1683 50  0000 L CNN
-F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 1450 1695 50  0001 C CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts_v2" V 1450 1695 50  0001 C CNN
 F 3 "" V 1450 1695 50  0001 C CNN
 	1    1700 1700
 	1    0    0    -1  
@@ -441,7 +441,7 @@ U 1 1 60CB84E5
 P 2300 1700
 F 0 "Col3" H 2544 1774 50  0000 L CNN
 F 1 "Col4" H 2544 1683 50  0000 L CNN
-F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 2050 1695 50  0001 C CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts_v2" V 2050 1695 50  0001 C CNN
 F 3 "" V 2050 1695 50  0001 C CNN
 	1    2300 1700
 	1    0    0    -1  
@@ -461,7 +461,7 @@ U 1 1 60CB8DCA
 P 2900 1700
 F 0 "Col4" H 3144 1774 50  0000 L CNN
 F 1 "Col4" H 3144 1683 50  0000 L CNN
-F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 2650 1695 50  0001 C CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts_v2" V 2650 1695 50  0001 C CNN
 F 3 "" V 2650 1695 50  0001 C CNN
 	1    2900 1700
 	1    0    0    -1  
@@ -481,7 +481,7 @@ U 1 1 60CB9377
 P 3500 1700
 F 0 "Col5" H 3744 1774 50  0000 L CNN
 F 1 "Col3" H 3744 1683 50  0000 L CNN
-F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 3250 1695 50  0001 C CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts_v2" V 3250 1695 50  0001 C CNN
 F 3 "" V 3250 1695 50  0001 C CNN
 	1    3500 1700
 	1    0    0    -1  
@@ -550,7 +550,7 @@ U 1 1 60CAE2F3
 P 4100 950
 F 0 "SW_and_D1" H 4344 1024 50  0000 L CNN
 F 1 "SW_and_D" H 4344 933 50  0000 L CNN
-F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 3850 945 50  0001 C CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts_v2" V 3850 945 50  0001 C CNN
 F 3 "" V 3850 945 50  0001 C CNN
 	1    4100 950 
 	1    0    0    -1  
@@ -567,7 +567,7 @@ U 1 1 60CAE946
 P 4100 1700
 F 0 "SW_and_D2" H 4344 1774 50  0000 L CNN
 F 1 "SW_and_D" H 4344 1683 50  0000 L CNN
-F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 3850 1695 50  0001 C CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts_v2" V 3850 1695 50  0001 C CNN
 F 3 "" V 3850 1695 50  0001 C CNN
 	1    4100 1700
 	1    0    0    -1  
@@ -584,7 +584,7 @@ U 1 1 60CAEE2D
 P 4100 2450
 F 0 "SW_and_D3" H 4344 2524 50  0000 L CNN
 F 1 "SW_and_D" H 4344 2433 50  0000 L CNN
-F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 3850 2445 50  0001 C CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts_v2" V 3850 2445 50  0001 C CNN
 F 3 "" V 3850 2445 50  0001 C CNN
 	1    4100 2450
 	1    0    0    -1  
@@ -947,7 +947,7 @@ U 1 1 60E6E288
 P 6600 1800
 F 0 "ColR1" H 6844 1874 50  0000 L CNN
 F 1 "Col3" H 6844 1783 50  0000 L CNN
-F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 6350 1795 50  0001 C CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts_v2" V 6350 1795 50  0001 C CNN
 F 3 "" V 6350 1795 50  0001 C CNN
 	1    6600 1800
 	1    0    0    -1  
@@ -964,7 +964,7 @@ U 1 1 60E6E296
 P 7250 1800
 F 0 "ColR2" H 7494 1874 50  0000 L CNN
 F 1 "Col4" H 7494 1783 50  0000 L CNN
-F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 7000 1795 50  0001 C CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts_v2" V 7000 1795 50  0001 C CNN
 F 3 "" V 7000 1795 50  0001 C CNN
 	1    7250 1800
 	1    0    0    -1  
@@ -984,7 +984,7 @@ U 1 1 60E6E2A6
 P 7850 1800
 F 0 "ColR3" H 8094 1874 50  0000 L CNN
 F 1 "Col4" H 8094 1783 50  0000 L CNN
-F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 7600 1795 50  0001 C CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts_v2" V 7600 1795 50  0001 C CNN
 F 3 "" V 7600 1795 50  0001 C CNN
 	1    7850 1800
 	1    0    0    -1  
@@ -1004,7 +1004,7 @@ U 1 1 60E6E2B6
 P 8450 1800
 F 0 "ColR4" H 8694 1874 50  0000 L CNN
 F 1 "Col4" H 8694 1783 50  0000 L CNN
-F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts" V 8200 1795 50  0001 C CNN
+F 2 "scaffold:Col4_socket_PG1350_sod123_cutouts_v2" V 8200 1795 50  0001 C CNN
 F 3 "" V 8200 1795 50  0001 C CNN
 	1    8450 1800
 	1    0    0    -1  
@@ -1024,7 +1024,7 @@ U 1 1 60E6E2C6
 P 9050 1800
 F 0 "ColR5" H 9294 1874 50  0000 L CNN
 F 1 "Col3" H 9294 1783 50  0000 L CNN
-F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts" V 8800 1795 50  0001 C CNN
+F 2 "scaffold:Col3_socket_PG1350_sod123_cutouts_v2" V 8800 1795 50  0001 C CNN
 F 3 "" V 8800 1795 50  0001 C CNN
 	1    9050 1800
 	1    0    0    -1  
@@ -1093,7 +1093,7 @@ U 1 1 60E6E2F5
 P 9650 1050
 F 0 "SW_and_DR1" H 9894 1124 50  0000 L CNN
 F 1 "SW_and_D" H 9894 1033 50  0000 L CNN
-F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 9400 1045 50  0001 C CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts_v2" V 9400 1045 50  0001 C CNN
 F 3 "" V 9400 1045 50  0001 C CNN
 	1    9650 1050
 	1    0    0    -1  
@@ -1110,7 +1110,7 @@ U 1 1 60E6E303
 P 9650 1800
 F 0 "SW_and_DR2" H 9894 1874 50  0000 L CNN
 F 1 "SW_and_D" H 9894 1783 50  0000 L CNN
-F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 9400 1795 50  0001 C CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts_v2" V 9400 1795 50  0001 C CNN
 F 3 "" V 9400 1795 50  0001 C CNN
 	1    9650 1800
 	1    0    0    -1  
@@ -1127,7 +1127,7 @@ U 1 1 60E6E311
 P 9650 2550
 F 0 "SW_and_DR3" H 9894 2624 50  0000 L CNN
 F 1 "SW_and_D" H 9894 2533 50  0000 L CNN
-F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts" V 9400 2545 50  0001 C CNN
+F 2 "scaffold:Col1_socket_PG1350_sod123_cutouts_v2" V 9400 2545 50  0001 C CNN
 F 3 "" V 9400 2545 50  0001 C CNN
 	1    9650 2550
 	1    0    0    -1  
